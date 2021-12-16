@@ -1,0 +1,95 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004c;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+    
+}
+nav ul li a:hover{
+    color: #f9004c;
+    transition: .4s;
+    
+    
+}
+.btn{
+    background-color: #f9004c;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 60%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004c;
+    outline: none;
+    border-radius: 30px;
+
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #f9004c;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    
+}
+.newslatter form input:last-child:hover{
+    background-color: #f9004c;
+}
+   
